@@ -49,10 +49,6 @@ function Header({ cartCount }) {
           <nav className={`main-nav ${menuOpen ? 'nav-open' : ''}`}>
             <a href="#home">Home</a>
             <a href="#products">Shop</a>
-            <a href="#">Healthy</a>
-            <a href="#">Marrow</a>
-            <a href="#">Allium</a>
-            <a href="#">Vitamins</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
           </nav>

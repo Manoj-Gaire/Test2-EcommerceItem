@@ -17,10 +17,14 @@ const products = [
 
 const categoryList = [
   { name: 'Allium', slug: 'allium', count: 5 },
+  { name: 'Dried beans', slug: 'dried-beans', count: 4 },
+  { name: 'Marrow', slug: 'marrow', count: 3 },
   { name: 'Green vegetables', slug: 'green-vegetables', count: 2 },
   { name: 'Cruciferous', slug: 'cruciferous', count: 1 },
-  { name: 'broad beans', slug: 'broad-beans', count: 1 },
-  { name: 'green peas', slug: 'green-peas', count: 1 },
+  { name: 'Chickpea', slug: 'chickpea', count: 1 },
+  { name: 'Red foods', slug: 'red-foods', count: 1 },
+  { name: 'Fresh beans', slug: 'fresh-beans', count: 1 },
+  { name: 'Leafy green', slug: 'leafy-green', count: 1 },
 ]
 
 const tags = ['Organic', 'Fresh', 'Sale', 'Best Seller', 'New Arrival', 'Seasonal', 'Imported', 'Local']

@@ -50,7 +50,7 @@ function Header({ cartCount }) {
             <a href="#home">Home</a>
             <a href="#products">Shop</a>
             <a href="#">Blog</a>
-            <a href="#">About</a>
+            <a href="#">Page</a>
             <a href="#">Contact</a>
           </nav>
         </div>

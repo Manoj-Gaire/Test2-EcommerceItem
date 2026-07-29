@@ -27,7 +27,15 @@ const categoryList = [
   { name: 'Leafy green', slug: 'leafy-green', count: 1 },
 ]
 
-const tags = ['Organic', 'Fresh', 'Sale', 'Best Seller', 'New Arrival', 'Seasonal', 'Imported', 'Local']
+const colors = [
+  { name: 'Amber', count: 4 },
+  { name: 'Beige', count: 4 },
+  { name: 'Bronze', count: 4 },
+  { name: 'Purple', count: 5 },
+  { name: 'Green', count: 5 },
+  { name: 'Red', count: 5 },
+  { name: 'White', count: 4 },
+]
 
 function Products({ onAddToCart }) {
   const [activeCategory, setActiveCategory] = useState('all')
@@ -105,12 +113,16 @@ function Products({ onAddToCart }) {
             </div>
 
             <div className="sidebar-widget">
-              <h3 className="sidebar-title">Product Tags</h3>
-              <div className="tag-cloud">
-                {tags.map(tag => (
-                  <a key={tag} href="#" className="tag-item">{tag}</a>
+              <h3 className="sidebar-title">Color</h3>
+              <ul className="woo-category-list">
+                {colors.map(c => (
+                  <li key={c.name}>
+                    <button>
+                      {c.name} <span className="cat-count">({c.count})</span>
+                    </button>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
 
             <div className="sidebar-widget sidebar-banner">
